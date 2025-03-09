@@ -29,11 +29,15 @@ https://apex.oracle.com
 * [TEST_INSERT_x_UPDATE](TEST_INSERT_x_UPDATE.sql)
 * [TEST_DELETE](TEST_DELETE.sql)
 
-Работу которых можно простестировать на [сайте](https://apex.oracle.com/pls/apex/r/apex/sql-workshop/sql-scripts?session=117132774741616), для этого в таблице нужно нажать кнопку RUN в соответствующих строках
+Для проверки работы проекта нужно перейти на сайт 
+https://apex.oracle.com/go/sign-in
  
  [Данные для входа](Security.txt)
+
+Работу процедур можно простестировать на [сайте](https://apex.oracle.com/pls/apex/r/apex/sql-workshop/sql-scripts?session=117132774741616), для этого в таблице нужно нажать кнопку RUN в соответствующих строках
+
  
-После этого при успешном выполнении процедуры данные появятся в отчете
+После этого при успешном выполнении любой процедуры данные появятся в отчете
 
 * [Log Procedure Dashboard](https://apex.oracle.com/pls/apex/r/kirill/log-procedure/log-procedure-dashboard?session=22180205766775)
 

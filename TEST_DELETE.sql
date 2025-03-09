@@ -1,0 +1,3 @@
+BEGIN 
+    TEST_LOG.TEST_DELETE(2);
+END;

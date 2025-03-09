@@ -24,6 +24,30 @@ https://apex.oracle.com
 * [TEST_LOG_PACKAGE](test_log_package.sql)
 * [TEST_LOG_PACKAGE_BODY](test_log_package_body.sql)
 
+Для тестирования работы логирования были созданы процедуры:
+
+* [TEST_INSERT_x_UPDATE](TEST_INSERT_x_UPDATE.sql)
+* [TEST_DELETE](TEST_DELETE.sql)
+
+Работу которых можно простестировать на [сайте](https://apex.oracle.com/pls/apex/r/apex/sql-workshop/sql-scripts?session=117132774741616), для этого в таблице нужно нажать кнопку RUN в соответствующих строках
+ 
+ [Данные для входа](Security.txt)
+ 
+После этого при успешном выполнении процедуры данные появятся в отчете
+
+* [Log Procedure Dashboard](https://apex.oracle.com/pls/apex/r/kirill/log-procedure/log-procedure-dashboard?session=22180205766775)
+
+При ошибке (например если несколько раз подряд запустить [TEST_INSERT_x_UPDATE](TEST_INSERT_x_UPDATE.sql)) данные появятся в отчете
+
+* [ERRORS](https://apex.oracle.com/pls/apex/r/kirill/log-procedure/errors?session=22180205766775)
+
+
+
+
+
+
+
+
 
 
 

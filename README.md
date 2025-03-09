@@ -9,5 +9,12 @@
 
 https://apex.oracle.com
 
-cars.sql
+В рамках проекта были созданы таблицы
 
+[Источник данных] (https://github.com/Lilkirill/LOG_PROCESS/blob/main/cars_source.sql)
+
+[Таргет] (https://github.com/Lilkirill/LOG_PROCESS/blob/main/cars.sql)
+
+[Логирование] (https://github.com/Lilkirill/LOG_PROCESS/blob/main/log_procedure.sql)
+
+[Логирование ошибок] (https://github.com/Lilkirill/LOG_PROCESS/blob/main/cars_err_log.sql)

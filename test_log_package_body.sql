@@ -150,7 +150,7 @@ create or replace PACKAGE BODY TEST_LOG AS
                 ); 
  
             DELETE FROM CARS 
-                WHERE VEHICLE_AGE = 4 
+                WHERE ID IS NOT NUll 
             LOG ERRORS INTO CARS_ERR_LOG REJECT LIMIT UNLIMITED; 
  
             V_ACTION_RESULT := 'DELETED FROM CARS' || SQL % ROWCOUNT || 'ROWS' ; 
